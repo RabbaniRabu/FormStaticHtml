@@ -1,0 +1,249 @@
+                                                                            HTML
+=======================================================================================================================================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login From</title>
+    <link rel="stylesheet" href="form1.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Regitarion</legend>
+        <form name="regForm">
+            <table>
+
+                <!--Row1-->
+                <tr>
+                    <td>
+                        Frist name
+                    </td>
+                    <td>
+                    <input type="text" name="uname" placeholder="Enter Frist name">
+                    </td>
+                    <td>
+                        <span>(*****please Enter valid first name********)</span>
+                    </td>
+                </tr>
+
+             <!--Row2-->
+              <tr>
+                   <td>
+              Last name
+            </td>
+            <td>
+            <input type="text" name="uname" placeholder="Enter Last name">
+            </td>
+            <td>
+                <span>(*****please Enter valid last name********)</span>
+            </td>
+        </tr>
+             
+
+        <!--Row3-->
+        <tr>
+    <td>
+       Password
+     </td>
+     <td>
+     <input type="password" name="upsw" placeholder="Enter password">
+     </td>
+     <td>
+         <span>(*****please Enter valid password********)</span>
+     </td>
+ </tr>
+
+ <!--Row4-->
+ <tr>
+    <td>
+      Confrime Password
+     </td>
+     <td>
+     <input type="password" name="upsw" placeholder="Enter password">
+     </td>
+     <td>
+         <span>(*****please Enter valid confrimpassword********)</span>
+     </td>
+ </tr>
+
+
+ <!--Row5-->
+ <tr>
+    <td>
+      Email
+     </td>
+     <td>
+     <input type="Email" name="uemail" placeholder="Enter Email">
+     </td>
+     <td>
+         <span>(*****please Enter valid email********)</span>
+     </td>
+ </tr>
+
+ <!--Row6-->
+ <tr>
+    <td>
+      Age
+     </td>
+     <td>
+     <input type="number" name="uage" placeholder="Enter age">
+     </td>
+     <td>
+         <span>(*****please Enter valid email********)</span>
+     </td>
+ </tr>
+
+ <!--Row7-->
+ <tr>
+    <td>
+      Gender
+     </td>
+     <td>
+  <input type="radio" name="Gender" value="male">male
+  <input type="radio" name="Gender" value="female">female
+     </td>
+     <td>
+         <span>(*****please select your Gender********)</span>
+     </td>
+ </tr>
+
+  <!--Row8-->
+  <tr>
+    <td>
+    Skiils
+     </td>
+     <td>
+  <input type="checkbox" name="skills" value="java">java
+  <input type="checkbox" name="skills" value="c languae">c langauege
+     </td>
+     <td>
+         <span>(*****please select your skills********)</span>
+     </td>
+ </tr>
+
+<!--Row9-->
+<tr>
+    <td>
+   country
+     </td>
+     <td>
+   <select name="country">    
+  <option value="">select country</option>
+  <option value="ind">India</option>
+  <option value="usa">America</option>
+  <option value="uk">londan</option>
+     </td>
+     <td>
+         <span>(*****please select your country********)</span>
+     </select>
+     </td>
+ </tr>
+
+ <!--Row10-->
+<tr>
+    <td>
+      Date of Brith
+     </td>
+     <td>
+     <input type="date" name="ubod">
+     </td>
+     <td>
+         <span>(*****please slect valid Data of Birth********)</span>
+     </td>
+ </tr>
+
+ <!--Row10-->
+ <tr>
+    <td>
+      Perf Time
+     </td>
+     <td>
+     <input type="time" name="ptime">
+     </td>
+     <td>
+         <span>(*****please slect Perf time********)</span>
+     </td>
+ </tr>
+
+ <!--Row11-->
+
+ <tr>
+    <td>
+     Choose color
+     </td>
+     <td>
+     <input type="color" name="pcolor">
+     </td>
+     <td>
+         <span>(*****please please choose your per color********)</span>
+     </td>
+ </tr>
+
+ <!--Row12-->
+ <tr>
+    <td>
+     Adderss
+     </td>
+     <td>
+   <textarea name="uadders" placeholder="Enter Addres"></textarea>
+     </td>
+     <td>
+         <span>(*****Addres should be >40********)</span>
+     </td>
+ </tr>
+
+  <!--Row13-->
+  <tr>
+    <td>
+    Upload Resume
+     </td>
+     <td>
+  <input type="file" name="uresume">
+     </td>
+     <td>
+         <span>(*****Formanting should be Pdf********)</span>
+     </td>
+ </tr>
+
+ <!--Row14-->
+ <tr>
+    <td>
+        <input type="submit" value="Regitarion">
+     </td>
+     <td>
+        <input type="reset" value="clear">
+     </td>
+     
+ </tr>
+            </table>
+
+        </form>
+    </fieldset>
+</body>
+</html>
+
+
+
+
+
+                                                         CSS
+======================================================================================================================================================================
+
+
+fieldset{
+    width: 50%;
+    border-color: rebeccapurple;
+    border-radius: 10px;
+    margin: 50px;
+    background-color:yellowgreen;
+    color: white;
+    font-size: large;
+}
+legend{
+    background-color: olivedrab;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
